@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="test_ci.TestCI-20161114125213" tests="2" time="0.000">
+	<testcase classname="test_ci.TestCI" name="testa" time="0.000"/>
+	<testcase classname="test_ci.TestCI" name="test" time="0.000">
+		<error message="False is not true" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/rob/private/repos/ci-test/test_ci.py", line 6, in test
+    self.assertTrue(False)
+AssertionError: False is not true
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
